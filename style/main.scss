@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  width: 100%;
+}
+
+@import './utils/variables';
+@import './utils/colors';
+@import './utils/typography';
+@import './utils/fonts';
+@import './utils/mixins';
+
+@import './sections/nav';
+@import './sections/header';
+@import './sections/knowHow';
+@import './sections/love';
+@import './sections/mission';
+@import './sections/try';
+@import './sections/womanInWeb';
+@import './sections/about';
+@import './sections/contact';
+
+

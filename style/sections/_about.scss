@@ -1,0 +1,42 @@
+.about {
+  padding: 14.875rem 8rem 7rem;
+
+  &_header {
+    color: $color_main-red;
+    font-weight: $fontWeight_bold;
+    font-size: $fontSize_80;
+    margin-left: 8rem;
+    margin-bottom: 7rem;
+  }
+
+  &_item {
+    width: 23%;
+    margin-left: 1.4375rem;
+    margin-bottom: 6.2rem;
+
+    &Wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    &Img {
+      width: 100%;
+      margin-bottom: 1.75rem;
+    }
+
+    &Name {
+      text-align: center;
+      color: $color_main-red;
+      font-weight: $fontWeight_semiBold;
+      font-size: $fontSize_34;
+    }
+
+    &Description {
+      text-align: center;
+      font-size: $fontSize_30;
+      font-weight: $fontWeight_regular;
+    }
+  }
+}

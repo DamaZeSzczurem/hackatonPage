@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  width: 100%;
+}
+
+.nav {
+  color: #FFFFFF;
+}
+
+.navMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+  background-color: #712B8A;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  position: fixed;
+  z-index: 100;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #FFFFFF;
+}
+
+.header {
+  background-color: #712B8A;
+  height: 67.5rem;
+  padding-left: 9.4375rem;
+  padding-bottom: 15vh;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-image: url("./bg/dwie_bez_tla.png");
+  background-size: auto 120vh;
+  background-position-x: 150%;
+  background-repeat: no-repeat;
+}
+
+.header_heding {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-align: left;
+  color: #EE1D25;
+  font-size: 13.31rem;
+  line-height: 12rem;
+  width: 51%;
+  margin-top: auto;
+}
+
+.header_subheding {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 3.06rem;
+  text-align: center;
+  letter-spacing: 0.02125rem;
+  color: #FFFFFF;
+  width: 51%;
+  white-space: nowrap;
+}
+
+.header_img {
+  position: absolute;
+  right: -25%;
+  top: -10vh;
+  width: 92%;
+}
+
+.knowHow {
+  height: 100vh;
+  background-color: #EE1D25;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 18.75%;
+  padding-right: 18.75%;
+}
+
+.knowHow_item {
+  width: 14.5rem;
+  height: 60vh;
+}
+
+.knowHow_itemIcon {
+  width: 100%;
+}
+
+.knowHow_itemText {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.81rem;
+  font-weight: 700;
+}
+
+.love {
+  height: 100vh;
+  background-color: #712B8A;
+  color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.love_textWrapperTop {
+  width: 50vw;
+}
+
+.love_text1 {
+  display: block;
+  font-weight: 800;
+  font-size: 5.875rem;
+  height: 8.8125rem;
+}
+
+.love_text2 {
+  display: block;
+  font-weight: 500;
+  text-align: center;
+  font-size: 3.375rem;
+  height: 5rem;
+}
+
+.love_text3 {
+  display: block;
+  font-weight: 800;
+  font-size: 5.875rem;
+  text-align: right;
+  position: relative;
+  left: -3.375rem;
+  height: 8.8125rem;
+}
+
+.love_text4 {
+  display: block;
+  font-weight: 400;
+  font-size: 3.125rem;
+  text-align: right;
+}
+
+.love_text-red {
+  color: #EE1D25;
+  font-size: 3.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.love_textWrapperBottom {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-top: 5vh;
+  width: 60vw;
+  position: relative;
+}
+
+.love_img {
+  position: absolute;
+  width: 35vw;
+}
+
+.love_img1 {
+  top: -20vh;
+  left: -5vw;
+}
+
+.love_img2 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  bottom: -20vh;
+  right: -5vw;
+}
+
+.mission {
+  height: 100vh;
+  background-color: #FFFFFF;
+  padding-left: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+
+.mission_header {
+  color: #EE1D25;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 2.5vh;
+}
+
+.mission_img {
+  position: absolute;
+  width: 50vw;
+  right: 10vw;
+  top: 0;
+}
+
+.mission_text {
+  text-align: left;
+  font-size: 1.875rem;
+  font-weight: 300;
+  margin-left: 5vw;
+  color: #707070;
+}
+
+.mission_text-bold {
+  font-weight: 700;
+  color: black;
+}
+
+.mission_textWrapper {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 15vh;
+  width: 50vw;
+}
+
+.try {
+  background-color: #EE1D25;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.try_textWrapper {
+  padding: 5vh 5vw;
+  height: 90vh;
+  width: 80vw;
+  background-color: #FFFFFF;
+  color: #707070;
+  border-radius: 0.5rem;
+  overflow-y: scroll;
+}
+
+.try_textWrapper h4 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.try_textWrapper h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.try_textWrapper li {
+  margin-bottom: 1rem;
+}
+
+.try_button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 2.1875rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #712B8A;
+  padding: 0.75rem 1.8125rem;
+  margin-top: 5vh;
+}
+
+.try_buttonWrapper {
+  height: 60vh;
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.womanInWeb {
+  padding: 5vh 20vw 7.5vh 5vw;
+  height: 100vh;
+}
+
+.womanInWeb_img {
+  height: 100vh;
+  float: left;
+}
+
+.womanInWeb_header {
+  margin-top: 25vh;
+  position: relative;
+  left: -5vw;
+  color: #EE1D25;
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 2.625rem;
+}
+
+.womanInWeb_text {
+  margin-bottom: 1rem;
+  font-weight: 300;
+  font-size: 1.875rem;
+}
+
+.womanInWeb_text-bold {
+  font-weight: 700;
+}
+
+.about {
+  padding: 14.875rem 8rem 7rem;
+}
+
+.about_header {
+  color: #EE1D25;
+  font-weight: 700;
+  font-size: 5rem;
+  margin-left: 8rem;
+  margin-bottom: 7rem;
+}
+
+.about_item {
+  width: 23%;
+  margin-left: 1.4375rem;
+  margin-bottom: 6.2rem;
+}
+
+.about_itemWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.about_itemImg {
+  width: 100%;
+  margin-bottom: 1.75rem;
+}
+
+.about_itemName {
+  text-align: center;
+  color: #EE1D25;
+  font-weight: 600;
+  font-size: 2.125rem;
+}
+
+.about_itemDescription {
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+/*# sourceMappingURL=main.css.map */
